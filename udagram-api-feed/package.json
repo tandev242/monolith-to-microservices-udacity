@@ -1,5 +1,5 @@
 {
-  "name": "udagram-api-feed",
+  "name": "udagram-api",
   "version": "2.0.0",
   "description": "",
   "main": "src/server.js",
@@ -17,22 +17,18 @@
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^3.0.0",
-    "@types/express-serve-static-core": "4.17.20",
     "@types/jsonwebtoken": "^8.3.2",
     "aws-sdk": "^2.429.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "email-validator": "^2.0.4",
     "express": "^4.16.4",
-    "homedir": "^0.6.0",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.0.3",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^5.21.4",
-    "sequelize-typescript": "^0.6.9",
-    "upgrade": "^1.1.0"
+    "sequelize-typescript": "^0.6.9"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.26",
@@ -49,6 +45,6 @@
     "eslint-config-google": "^0.14.0",
     "mocha": "^6.1.4",
     "ts-node-dev": "^1.0.0-pre.32",
-    "typescript": "^3.9.10"
+    "typescript": "^3.3.4000"
   }
 }
